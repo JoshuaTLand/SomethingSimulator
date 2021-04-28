@@ -1,7 +1,3 @@
-#include <stdio.h>
-#include <iostream>
-#include <chrono>
-#include <windows.h>
 #include "SimClock.h"
 #include "SimEngine.h"
 
@@ -9,7 +5,7 @@ using namespace std;
 
 int main() {
 
-	const int fps = 5;
+	const int fps = 2;
 
 	SimEngine simEngine;
 	SimClock simClock;
